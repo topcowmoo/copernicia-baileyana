@@ -1,6 +1,6 @@
-const express = require('express');
-const cors = require('cors');
-const records = require('./routes/record.js');
+import express from "express";
+import cors from 'cors';
+import records from './routes/record.js';
 
 const PORT = process.env.PORT || 5050;
 const app = express();
